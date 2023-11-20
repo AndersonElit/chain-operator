@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9e6771d-81d5-4a74-8680-9c624a66884f" name="Changes" comment="" />
+    <list default="true" id="c9e6771d-81d5-4a74-8680-9c624a66884f" name="Changes" comment="create project structure and first method chainOneToMany">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/chainoperator/ChainOperatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/chainoperator/Main.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,16 +42,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/anderson-elit/Documents/chain-operator"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.chainoperator" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.chainoperator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ChainOperatorTest.chainOneToMany">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.chainoperator.Main" />
       <module name="chain-operator" />
@@ -58,8 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChainOperatorTest.chainOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chain-operator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.chainoperator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.chainoperator" />
+      <option name="MAIN_CLASS_NAME" value="io.chainoperator.ChainOperatorTest" />
+      <option name="METHOD_NAME" value="chainOneToMany" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChainOperatorTest.chainOneToMany" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -73,6 +105,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700497790009</updated>
     </task>
+    <task id="LOCAL-00001" summary="create project structure and first method chainOneToMany">
+      <option name="closed" value="true" />
+      <created>1700500663697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700500663697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project structure and first method chainOneToMany" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project structure and first method chainOneToMany" />
   </component>
 </project>
